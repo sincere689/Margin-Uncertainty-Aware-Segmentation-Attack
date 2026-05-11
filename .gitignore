@@ -1,0 +1,62 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# datasets
+data/
+datasets/
+VOCdevkit/
+cityscapes/
+
+# model weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+checkpoints/
+weights/
+
+# experiment logs and outputs
+experiments_log/
+outputs/
+results/
+runs/
+
+# qualitative visualization outputs
+qualitative_attack_candidates*/
+qualitative_attack_candidates_deeplabv3_voc/
+qualitative_attack_candidates_segformer_cityscapes/
+
+# IDE / env
+.vscode/
+.idea/
+.env
+
+# visualization / paper outputs
+selected_cityscapes_results/
+qualitative_attack_candidates*/
+paper_weight_maps/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.html
+
+# experiment outputs
+experiments_log/
+outputs/
+results/
+runs/
+
+# datasets and weights
+data/
+datasets/
+VOCdevkit/
+cityscapes/
+checkpoints/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
